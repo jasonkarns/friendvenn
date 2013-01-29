@@ -85,7 +85,7 @@ get '/auth/:name/callback' do
 end
 
 get '/sign_in/?' do
-  redirect '/auth/twitter'
+  redirect '/auth/twitter?x_auth_access_type=read'
 end
 
 get '/sign_out' do
